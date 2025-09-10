@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OtakuList – Anime Tracker</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h1>OtakuList</h1>
+  <form id="animeForm">
+    <input type="text" id="title" placeholder="Anime Title" required>
+    <select id="status">
+      <option value="To Watch">To Watch</option>
+      <option value="Watching">Watching</option>
+      <option value="Completed">Completed</option>
+    </select>
+    <button type="submit">Add Anime</button>
+  </form>
+
+  <ul id="animeList"></ul>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
